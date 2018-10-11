@@ -1,0 +1,41 @@
+/* 全局样式 开始 */
+ul,li,ol,dd,dt,dl,p,body,h1,h2,h3,h4,h5,h6{
+	margin:0;padding:0;
+}
+body,html{
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+a,u,s{
+	text-decoration:none;
+	color: #999;
+}
+ul,li,ol{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+/* body{background: #f0f3ef;} */
+/* 全局样式 结束 */
+
+body{
+}
+.side_list{
+	width: 38px;
+	background: #4c4c4c;
+	position: relative;
+	float: right;
+}
+
+header{
+	float: left;
+}
+header a{
+	display: block;
+	background: #fff;
+	height: 80px;
+}
+header a img{
+	width: 100%;
+	height: 80px;
+}
